@@ -1,0 +1,33 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+body {
+
+    background-color: #f2d185;
+
+}
+
+.div1 {
+
+    position: relative;
+    height: auto;
+    width: 500px;
+    z-index: 1;
+    background: white;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    grid-area: 1 / 1 / 2 / 2;
+    top: 25%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+

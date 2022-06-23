@@ -1,0 +1,73 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+body {
+
+  background-color: #f2d185;
+
+}
+
+.div1 {
+
+  position: relative;
+  height: auto;
+  width: auto;
+  z-index: 1;
+  background: white;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  grid-area: 1 / 1 / 2 / 2;
+  top: 25%;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 35px;
+}
+
+.user-name,
+.user-pass {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+input.user-password,
+input.user-user {
+  width: 150px;
+  height: 18px;
+  opacity: 1;
+  border-radius: 2px;
+  padding: 5px 15px;
+  border: 10;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#buttonE {
+  width: 75%;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: orange;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border: none;
+  padding: 3%;
+  border-radius: 20px 10px 20px 10px;
+  -webkit-box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+
+}
+
+#buttonE:hover {
+  background-color: #7FACDE;
+}

@@ -1,0 +1,88 @@
+.formulario {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background: orange;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom: 5px solid orange;
+  margin-bottom: 5px;
+  position: relative;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+b {
+
+  color: #fff;
+
+}
+
+form {
+  background-color: white;
+  margin: 10px;
+  margin-top: 140px;
+  border-radius: 19px;
+  border-color: black;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  width: 40%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  margin-left: 8px;
+  font-size: 15px;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 95%;
+  padding: 2%;
+  margin-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+input:focus {
+  background-color: #F2F2F2;
+}
+
+body {
+  background-color: #f2d185;
+}
+
+#button {
+  width: 94%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: orange;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border: none;
+  padding: 3%;
+  border-radius: 20px 10px 20px 10px;
+  -webkit-box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+}
+
+#button:hover {
+  background-color: #7FACDE;
+}
